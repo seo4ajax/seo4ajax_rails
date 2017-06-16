@@ -13,6 +13,8 @@ And in `config/environment/production.rb`, add this line:
 config.middleware.use Rack::SEO4Ajax, seo4ajax_token: 'YOUR_TOKEN'
 ```
 
+Note: this middleware is heavily inspired by https://github.com/prerender/prerender_rails.
+
 ## License
 
 The MIT License (MIT)
