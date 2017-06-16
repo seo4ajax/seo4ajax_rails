@@ -4,9 +4,6 @@ module Rack
     require 'active_support'
 
     def initialize(app, options={})
-      # googlebot, yahoo, and bingbot are not in this list because
-      # we support _escaped_fragment_ and want to ensure people aren't
-      # penalized for cloaking.
       @crawler_user_agents = [
         # 'googlebot',
         # 'yahoo',
