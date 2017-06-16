@@ -10,7 +10,7 @@ Add this line to your application's Gemfile:
 And in `config/environment/production.rb`, add this line:
 
 ```ruby
-	config.middleware.use Rack::SEO4Ajax, seo4ajax_token: 'YOUR_TOKEN'
+config.middleware.use Rack::SEO4Ajax, seo4ajax_token: 'YOUR_TOKEN'
 ```
 
 ## License
