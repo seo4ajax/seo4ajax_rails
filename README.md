@@ -1,7 +1,7 @@
 SEO4Ajax Rails
 ===========================
 
-This middleware intercepts requests to your Rails website from crawlers, and then makes a call to SEO4Ajax to get the static HTML instead of the javascript for that page.
+This middleware intercepts requests to your Rails website from crawlers, and then makes a call to SEO4Ajax to get the static HTML for that page.
 
 Add this line to your application's Gemfile:
 
