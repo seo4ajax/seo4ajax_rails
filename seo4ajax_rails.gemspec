@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "seo4ajax_rails"
-  spec.version       = "1.0.0"
+  spec.version       = "1.0.1"
   spec.authors       = ["SEO4Ajax"]
   spec.email         = ["support@seo4ajax.com"]
   spec.description   = %q{Rails middleware to integrate SEO4Ajax in your web application}
