@@ -6,6 +6,7 @@ module Rack
     def initialize(app, options={})
       @crawler_user_agents = [
         'googlebot',
+        'lighthouse',
         'yahoo',
         'bingbot',
         'baiduspider',
